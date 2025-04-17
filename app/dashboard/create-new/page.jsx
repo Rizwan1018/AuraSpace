@@ -44,6 +44,8 @@ function CreateNew() {
       additionalReq:formData?.additionalReq,
       userEmail:user?.primaryEmailAddress?.emailAddress
     });
+    console.log(formData);
+    
     console.log(result.data);
     setAiOutputImage(result.data.result);// Output Image Url
     await updateUserCredits();

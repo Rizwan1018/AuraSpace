@@ -12,23 +12,23 @@ function BuyCredits() {
     const creditsOption=[
         {
           credits:5,
-          amount:0.99
+          amount:89
         },
         {
           credits:10,
-          amount:1.99
+          amount:139
         },
         {
           credits:25,
-          amount:3.99
+          amount:399
         },
         {
           credits:50,
-          amount:6.99
+          amount:899
         },
         {
           credits:100,
-          amount:9.99
+          amount:1299
         },
       ]
     
@@ -67,7 +67,7 @@ function BuyCredits() {
                 <h2 className='font-medium text-xl'>Credits</h2>
 
                 <Button className="w-full" onClick={()=>setSelectedOption(item)}>Select</Button>
-                <h2 className='font-medium text-primary'>${item.amount}</h2>
+                <h2 className='font-medium text-primary'>₹{item.amount}</h2>
               </div>
             ))}
         </div>
