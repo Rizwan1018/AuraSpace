@@ -12,7 +12,7 @@ function Header() {
     <div className='p-5 shadow-sm flex justify-between items-center'>
         <Link href={'/'} className='flex gap-2 items-center'>
             <Image src={'/logo.svg'} width={40} height={40} />
-            <h2 className='font-bold text-lg'>AI Room Design</h2>
+            <h2 className='font-bold text-lg'>Aura Space</h2>
         </Link>
 
         <Link href={'/dashboard/buy-credits'}>
